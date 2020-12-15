@@ -1,0 +1,48 @@
+Composer format 2.1 ascii
+camera {
+  position 0 0 0
+  viewDirection 0 0 -1
+  focalDistance 10
+  orthoUp 0 1 0
+  verticalFOV 1.57
+}
+point_light {
+  position 0 0 -1.5
+  color 1 1 1
+}
+poly_set {
+  name "Plane"
+  numMaterials 1
+  material {
+    diffColor 0.64 0.014162 0.0
+    ambColor 0.2 0.2 0.2
+    specColor 0.0 0.0 0.0
+    emisColor 1.0 1.0 1.0
+    shininess 3.00245096875
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_VERTEX_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 2
+  poly {
+    numVertices 3
+    pos -1.0 -1.0 -2.0
+    norm 0.0 0.0 1.0
+    pos 1.0 -1.0 -2.0
+    norm 0.0 0.0 1.0
+    pos 1.0 1.0 -2.0
+    norm 0.0 0.0 1.0
+  }
+  poly {
+    numVertices 3
+    pos -1.0 -1.0 -2.0
+    norm 0.0 0.0 1.0
+    pos 1.0 1.0 -2.0
+    norm 0.0 0.0 1.0
+    pos -1.0 1.0 -2.0
+    norm 0.0 0.0 1.0
+  }
+}

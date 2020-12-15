@@ -1,0 +1,248 @@
+Composer format 2.1 ascii
+camera {
+  position 0 2 3.5
+  viewDirection 0 0 -1
+  focalDistance 10
+  orthoUp 0 1 0
+  verticalFOV 1.326
+}
+point_light {
+  position 0 3.8 0
+  color 1 1 1
+}
+sphere {
+  name NULL
+  numMaterials 1
+  material {
+    diffColor 0.56 0.35 0.14
+    ambColor 0.2 0.2 0.2
+    specColor 0 0 0
+    emisColor 0 0 0
+    shininess 0.2
+    ktran 0
+  }
+  origin 0 1 0
+  radius 1.0
+  xaxis 1 0 0
+  xlength 1.33453
+  yaxis 0 1 0
+  ylength 1.33453
+  zaxis 0 0 1
+  zlength 1.33453
+}
+poly_set {
+  name "light_Cube.012"
+  numMaterials 1
+  material {
+    diffColor 0.8 0.8 0.8
+    ambColor 0.2 0.2 0.2
+    specColor 0.0 0.0 0.0
+    emisColor 100.0 100.0 100.0
+    shininess 3.00245096875
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_VERTEX_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 2
+  poly {
+    numVertices 3
+    pos 0.4 3.9999 -0.4
+    norm 0.0 -1.0 0.0
+    pos 0.4 3.9999 0.4
+    norm 0.0 -1.0 0.0
+    pos -0.4 3.9999 0.4
+    norm 0.0 -1.0 0.0
+  }
+  poly {
+    numVertices 3
+    pos 0.4 3.9999 -0.4
+    norm 0.0 -1.0 0.0
+    pos -0.4 3.9999 0.4
+    norm 0.0 -1.0 0.0
+    pos -0.4 3.9999 -0.4
+    norm 0.0 -1.0 0.0
+  }
+}
+poly_set {
+  name "floor.001_Cube.000"
+  numMaterials 1
+  material {
+    diffColor 0.64 0.64 0.64
+    ambColor 0.2 0.2 0.2
+    specColor 0.0 0.0 0.0
+    emisColor 0.0 0.0 0.0
+    shininess 3.00245096875
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_VERTEX_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 2
+  poly {
+    numVertices 3
+    pos 2.0 4.0 2.0
+    norm 0.0 1.0 0.0
+    pos 2.0 4.0 -2.0
+    norm 0.0 1.0 0.0
+    pos -2.0 4.0 -2.0
+    norm 0.0 1.0 0.0
+  }
+  poly {
+    numVertices 3
+    pos 2.0 4.0 2.0
+    norm 0.0 1.0 0.0
+    pos -2.0 4.0 -2.0
+    norm 0.0 1.0 0.0
+    pos -2.0 4.0 2.0
+    norm 0.0 1.0 0.0
+  }
+}
+poly_set {
+  name "back_wall.001_Cube.014"
+  numMaterials 1
+  material {
+    diffColor 0.64 0.64 0.64
+    ambColor 0.2 0.2 0.2
+    specColor 0.0 0.0 0.0
+    emisColor 0.0 0.0 0.0
+    shininess 3.00245096875
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_VERTEX_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 2
+  poly {
+    numVertices 3
+    pos 2.0 4.0 -2.0
+    norm 0.0 0.0 1.0
+    pos -2.0 4.0 -2.0
+    norm 0.0 0.0 1.0
+    pos -2.0 0.0 -2.0
+    norm 0.0 0.0 1.0
+  }
+  poly {
+    numVertices 3
+    pos 2.0 4.0 -2.0
+    norm 0.0 0.0 1.0
+    pos -2.0 0.0 -2.0
+    norm 0.0 0.0 1.0
+    pos 2.0 0.0 -2.0
+    norm 0.0 0.0 1.0
+  }
+}
+poly_set {
+  name "floor_Cube.016"
+  numMaterials 1
+  material {
+    diffColor 0.64 0.64 0.64
+    ambColor 0.2 0.2 0.2
+    specColor 0.0 0.0 0.0
+    emisColor 0.0 0.0 0.0
+    shininess 3.00245096875
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_VERTEX_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 2
+  poly {
+    numVertices 3
+    pos 2.0 0.0 2.0
+    norm 0.0 1.0 0.0
+    pos 2.0 0.0 -2.0
+    norm 0.0 1.0 0.0
+    pos -2.0 0.0 -2.0
+    norm 0.0 1.0 0.0
+  }
+  poly {
+    numVertices 3
+    pos 2.0 0.0 2.0
+    norm 0.0 1.0 0.0
+    pos -2.0 0.0 -2.0
+    norm 0.0 1.0 0.0
+    pos -2.0 0.0 2.0
+    norm 0.0 1.0 0.0
+  }
+}
+poly_set {
+  name "red_wall_Cube.015"
+  numMaterials 1
+  material {
+    diffColor 1.0 0.0 0.0
+    ambColor 0.2 0.2 0.2
+    specColor 0.0 0.0 0.0
+    emisColor 0.0 0.0 0.0
+    shininess 0.0
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_VERTEX_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 2
+  poly {
+    numVertices 3
+    pos -2.0 4.0 -2.0
+    norm 1.0 0.0 0.0
+    pos -2.0 4.0 2.0
+    norm 1.0 0.0 0.0
+    pos -2.0 0.0 2.0
+    norm 1.0 0.0 0.0
+  }
+  poly {
+    numVertices 3
+    pos -2.0 4.0 -2.0
+    norm 1.0 0.0 0.0
+    pos -2.0 0.0 2.0
+    norm 1.0 0.0 0.0
+    pos -2.0 0.0 -2.0
+    norm 1.0 0.0 0.0
+  }
+}
+poly_set {
+  name "green_wall_Cube.008"
+  numMaterials 1
+  material {
+    diffColor 0.0 1.0 0.0
+    ambColor 0.2 0.2 0.2
+    specColor 0.0 0.0 0.0
+    emisColor 0.0 0.0 0.0
+    shininess 3.00245096875
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_VERTEX_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 2
+  poly {
+    numVertices 3
+    pos 2.0 4.0 2.0
+    norm -1.0 0.0 0.0
+    pos 2.0 4.0 -2.0
+    norm -1.0 0.0 0.0
+    pos 2.0 0.0 -2.0
+    norm -1.0 0.0 0.0
+  }
+  poly {
+    numVertices 3
+    pos 2.0 4.0 2.0
+    norm -1.0 0.0 0.0
+    pos 2.0 0.0 -2.0
+    norm -1.0 0.0 0.0
+    pos 2.0 0.0 2.0
+    norm -1.0 0.0 0.0
+  }
+}

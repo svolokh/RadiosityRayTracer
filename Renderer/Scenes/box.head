@@ -1,0 +1,8 @@
+Composer format 2.1 ascii
+camera {
+  position 0 2 3.5
+  viewDirection 0 0 -1
+  focalDistance 10
+  orthoUp 0 1 0
+  verticalFOV 1.326
+}

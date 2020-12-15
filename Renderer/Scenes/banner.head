@@ -1,0 +1,28 @@
+Composer format 2.1 ascii
+camera {
+  position 0 2 3.5
+  viewDirection 0 0 -1
+  focalDistance 10
+  orthoUp 0 1 0
+  verticalFOV 1.326
+}
+sphere {
+  name NULL
+  numMaterials 1
+  material {
+    diffColor 0.6 0.6 0.6
+    ambColor 0.2 0.2 0.2
+    specColor 0.3 0.3 0.3
+    emisColor 0 0 0
+    shininess 0.2
+    ktran 0
+  }
+  origin 0.6 1.5 0.0
+  radius 0.5
+  xaxis 1 0 0
+  xlength 0.5
+  yaxis 0 1 0
+  ylength 0.5
+  zaxis 0 0 1
+  zlength 1.0
+}

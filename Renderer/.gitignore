@@ -1,0 +1,12 @@
+Debug
+Release
+*.opendb
+*.db
+.vs
+*.stackdump
+*.vcxproj.user
+**.swp
+UpgradeLog.htm
+**.swo
+**.vsp
+**.psess

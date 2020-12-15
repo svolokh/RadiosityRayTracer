@@ -1,0 +1,480 @@
+Composer format 2.1 ascii
+camera {
+  position 0 2 3.5
+  viewDirection 0 0 -1
+  focalDistance 10
+  orthoUp 0 1 0
+  verticalFOV 1.326
+}
+point_light {
+  position 0 3.8 0
+  color 1 1 1
+}
+poly_set {
+  name "small_box_Cube.001"
+  numMaterials 1
+  material {
+    diffColor 0.64 0.64 0.64
+    ambColor 0.2 0.2 0.2
+    specColor 0.0 0.0 0.0
+    emisColor 0.0 0.0 0.0
+    shininess 3.00245096875
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_VERTEX_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 12
+  poly {
+    numVertices 3
+    pos 0.951875 0.0001 0.537504
+    norm -0.4226 0.0 0.9063
+    pos 0.951875 1.0001 0.537504
+    norm -0.4226 0.0 0.9063
+    pos 0.045568 1.0001 0.114885
+    norm -0.4226 0.0 0.9063
+  }
+  poly {
+    numVertices 3
+    pos 0.951875 0.0001 0.537504
+    norm -0.4226 0.0 0.9063
+    pos 0.045568 1.0001 0.114885
+    norm -0.4226 0.0 0.9063
+    pos 0.045568 0.0001 0.114885
+    norm -0.4226 0.0 0.9063
+  }
+  poly {
+    numVertices 3
+    pos 0.045568 0.0001 0.114885
+    norm -0.9063 0.0 -0.4226
+    pos 0.045568 1.0001 0.114885
+    norm -0.9063 0.0 -0.4226
+    pos 0.468186 1.0001 -0.791422
+    norm -0.9063 0.0 -0.4226
+  }
+  poly {
+    numVertices 3
+    pos 0.045568 0.0001 0.114885
+    norm -0.9063 0.0 -0.4226
+    pos 0.468186 1.0001 -0.791422
+    norm -0.9063 0.0 -0.4226
+    pos 0.468186 0.0001 -0.791422
+    norm -0.9063 0.0 -0.4226
+  }
+  poly {
+    numVertices 3
+    pos 0.468186 0.0001 -0.791422
+    norm 0.4226 0.0 -0.9063
+    pos 0.468186 1.0001 -0.791422
+    norm 0.4226 0.0 -0.9063
+    pos 1.374494 1.0001 -0.368804
+    norm 0.4226 0.0 -0.9063
+  }
+  poly {
+    numVertices 3
+    pos 0.468186 0.0001 -0.791422
+    norm 0.4226 0.0 -0.9063
+    pos 1.374494 1.0001 -0.368804
+    norm 0.4226 0.0 -0.9063
+    pos 1.374494 0.0001 -0.368804
+    norm 0.4226 0.0 -0.9063
+  }
+  poly {
+    numVertices 3
+    pos 1.374494 0.0001 -0.368804
+    norm 0.9063 0.0 0.4226
+    pos 1.374494 1.0001 -0.368804
+    norm 0.9063 0.0 0.4226
+    pos 0.951875 1.0001 0.537504
+    norm 0.9063 0.0 0.4226
+  }
+  poly {
+    numVertices 3
+    pos 1.374494 0.0001 -0.368804
+    norm 0.9063 0.0 0.4226
+    pos 0.951875 1.0001 0.537504
+    norm 0.9063 0.0 0.4226
+    pos 0.951875 0.0001 0.537504
+    norm 0.9063 0.0 0.4226
+  }
+  poly {
+    numVertices 3
+    pos 0.045568 0.0001 0.114885
+    norm 0.0 -1.0 0.0
+    pos 0.468186 0.0001 -0.791422
+    norm 0.0 -1.0 0.0
+    pos 1.374494 0.0001 -0.368804
+    norm 0.0 -1.0 0.0
+  }
+  poly {
+    numVertices 3
+    pos 0.045568 0.0001 0.114885
+    norm 0.0 -1.0 0.0
+    pos 1.374494 0.0001 -0.368804
+    norm 0.0 -1.0 0.0
+    pos 0.951875 0.0001 0.537504
+    norm 0.0 -1.0 0.0
+  }
+  poly {
+    numVertices 3
+    pos 0.468186 1.0001 -0.791422
+    norm 0.0 1.0 0.0
+    pos 0.045568 1.0001 0.114885
+    norm 0.0 1.0 0.0
+    pos 0.951875 1.0001 0.537504
+    norm 0.0 1.0 0.0
+  }
+  poly {
+    numVertices 3
+    pos 0.468186 1.0001 -0.791422
+    norm 0.0 1.0 0.0
+    pos 0.951875 1.0001 0.537504
+    norm 0.0 1.0 0.0
+    pos 1.374494 1.0001 -0.368804
+    norm 0.0 1.0 0.0
+  }
+}
+poly_set {
+  name "tall_box_Cube.002"
+  numMaterials 1
+  material {
+    diffColor 0.64 0.64 0.64
+    ambColor 0.2 0.2 0.2
+    specColor 0.0 0.0 0.0
+    emisColor 0.0 0.0 0.0
+    shininess 3.00245096875
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_VERTEX_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 12
+  poly {
+    numVertices 3
+    pos -1.015749 0.0001 -0.285157
+    norm -0.9063 0.0 0.4226
+    pos -1.015749 2.0001 -0.285157
+    norm -0.9063 0.0 0.4226
+    pos -1.438367 2.0001 -1.191464
+    norm -0.9063 0.0 0.4226
+  }
+  poly {
+    numVertices 3
+    pos -1.015749 0.0001 -0.285157
+    norm -0.9063 0.0 0.4226
+    pos -1.438367 2.0001 -1.191464
+    norm -0.9063 0.0 0.4226
+    pos -1.438367 0.0001 -1.191464
+    norm -0.9063 0.0 0.4226
+  }
+  poly {
+    numVertices 3
+    pos -1.438367 0.0001 -1.191464
+    norm -0.4226 0.0 -0.9063
+    pos -1.438367 2.0001 -1.191464
+    norm -0.4226 0.0 -0.9063
+    pos -0.532059 2.0001 -1.614083
+    norm -0.4226 0.0 -0.9063
+  }
+  poly {
+    numVertices 3
+    pos -1.438367 0.0001 -1.191464
+    norm -0.4226 0.0 -0.9063
+    pos -0.532059 2.0001 -1.614083
+    norm -0.4226 0.0 -0.9063
+    pos -0.532059 0.0001 -1.614083
+    norm -0.4226 0.0 -0.9063
+  }
+  poly {
+    numVertices 3
+    pos -0.532059 0.0001 -1.614083
+    norm 0.9063 0.0 -0.4226
+    pos -0.532059 2.0001 -1.614083
+    norm 0.9063 0.0 -0.4226
+    pos -0.109441 2.0001 -0.707775
+    norm 0.9063 0.0 -0.4226
+  }
+  poly {
+    numVertices 3
+    pos -0.532059 0.0001 -1.614083
+    norm 0.9063 0.0 -0.4226
+    pos -0.109441 2.0001 -0.707775
+    norm 0.9063 0.0 -0.4226
+    pos -0.109441 0.0001 -0.707775
+    norm 0.9063 0.0 -0.4226
+  }
+  poly {
+    numVertices 3
+    pos -0.109441 0.0001 -0.707775
+    norm 0.4226 0.0 0.9063
+    pos -0.109441 2.0001 -0.707775
+    norm 0.4226 0.0 0.9063
+    pos -1.015749 2.0001 -0.285157
+    norm 0.4226 0.0 0.9063
+  }
+  poly {
+    numVertices 3
+    pos -0.109441 0.0001 -0.707775
+    norm 0.4226 0.0 0.9063
+    pos -1.015749 2.0001 -0.285157
+    norm 0.4226 0.0 0.9063
+    pos -1.015749 0.0001 -0.285157
+    norm 0.4226 0.0 0.9063
+  }
+  poly {
+    numVertices 3
+    pos -1.438367 0.0001 -1.191464
+    norm 0.0 -1.0 0.0
+    pos -0.532059 0.0001 -1.614083
+    norm 0.0 -1.0 0.0
+    pos -0.109441 0.0001 -0.707775
+    norm 0.0 -1.0 0.0
+  }
+  poly {
+    numVertices 3
+    pos -1.438367 0.0001 -1.191464
+    norm 0.0 -1.0 0.0
+    pos -0.109441 0.0001 -0.707775
+    norm 0.0 -1.0 0.0
+    pos -1.015749 0.0001 -0.285157
+    norm 0.0 -1.0 0.0
+  }
+  poly {
+    numVertices 3
+    pos -0.532059 2.0001 -1.614083
+    norm 0.0 1.0 0.0
+    pos -1.438367 2.0001 -1.191464
+    norm 0.0 1.0 0.0
+    pos -1.015749 2.0001 -0.285157
+    norm 0.0 1.0 0.0
+  }
+  poly {
+    numVertices 3
+    pos -0.532059 2.0001 -1.614083
+    norm 0.0 1.0 0.0
+    pos -1.015749 2.0001 -0.285157
+    norm 0.0 1.0 0.0
+    pos -0.109441 2.0001 -0.707775
+    norm 0.0 1.0 0.0
+  }
+}
+poly_set {
+  name "light_Cube.012"
+  numMaterials 1
+  material {
+    diffColor 0.8 0.8 0.8
+    ambColor 0.2 0.2 0.2
+    specColor 0.0 0.0 0.0
+    emisColor 100.0 100.0 100.0
+    shininess 3.00245096875
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_VERTEX_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 2
+  poly {
+    numVertices 3
+    pos 0.4 3.9999 -0.4
+    norm 0.0 -1.0 0.0
+    pos 0.4 3.9999 0.4
+    norm 0.0 -1.0 0.0
+    pos -0.4 3.9999 0.4
+    norm 0.0 -1.0 0.0
+  }
+  poly {
+    numVertices 3
+    pos 0.4 3.9999 -0.4
+    norm 0.0 -1.0 0.0
+    pos -0.4 3.9999 0.4
+    norm 0.0 -1.0 0.0
+    pos -0.4 3.9999 -0.4
+    norm 0.0 -1.0 0.0
+  }
+}
+poly_set {
+  name "floor.001_Cube.000"
+  numMaterials 1
+  material {
+    diffColor 0.64 0.64 0.64
+    ambColor 0.2 0.2 0.2
+    specColor 0.0 0.0 0.0
+    emisColor 0.0 0.0 0.0
+    shininess 3.00245096875
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_VERTEX_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 2
+  poly {
+    numVertices 3
+    pos 2.0 4.0 2.0
+    norm 0.0 1.0 0.0
+    pos 2.0 4.0 -2.0
+    norm 0.0 1.0 0.0
+    pos -2.0 4.0 -2.0
+    norm 0.0 1.0 0.0
+  }
+  poly {
+    numVertices 3
+    pos 2.0 4.0 2.0
+    norm 0.0 1.0 0.0
+    pos -2.0 4.0 -2.0
+    norm 0.0 1.0 0.0
+    pos -2.0 4.0 2.0
+    norm 0.0 1.0 0.0
+  }
+}
+poly_set {
+  name "back_wall.001_Cube.014"
+  numMaterials 1
+  material {
+    diffColor 0.64 0.64 0.64
+    ambColor 0.2 0.2 0.2
+    specColor 0.0 0.0 0.0
+    emisColor 0.0 0.0 0.0
+    shininess 3.00245096875
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_VERTEX_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 2
+  poly {
+    numVertices 3
+    pos 2.0 4.0 -2.0
+    norm 0.0 0.0 1.0
+    pos -2.0 4.0 -2.0
+    norm 0.0 0.0 1.0
+    pos -2.0 0.0 -2.0
+    norm 0.0 0.0 1.0
+  }
+  poly {
+    numVertices 3
+    pos 2.0 4.0 -2.0
+    norm 0.0 0.0 1.0
+    pos -2.0 0.0 -2.0
+    norm 0.0 0.0 1.0
+    pos 2.0 0.0 -2.0
+    norm 0.0 0.0 1.0
+  }
+}
+poly_set {
+  name "floor_Cube.016"
+  numMaterials 1
+  material {
+    diffColor 0.64 0.64 0.64
+    ambColor 0.2 0.2 0.2
+    specColor 0.0 0.0 0.0
+    emisColor 0.0 0.0 0.0
+    shininess 3.00245096875
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_VERTEX_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 2
+  poly {
+    numVertices 3
+    pos 2.0 0.0 2.0
+    norm 0.0 1.0 0.0
+    pos 2.0 0.0 -2.0
+    norm 0.0 1.0 0.0
+    pos -2.0 0.0 -2.0
+    norm 0.0 1.0 0.0
+  }
+  poly {
+    numVertices 3
+    pos 2.0 0.0 2.0
+    norm 0.0 1.0 0.0
+    pos -2.0 0.0 -2.0
+    norm 0.0 1.0 0.0
+    pos -2.0 0.0 2.0
+    norm 0.0 1.0 0.0
+  }
+}
+poly_set {
+  name "red_wall_Cube.015"
+  numMaterials 1
+  material {
+    diffColor 1.0 0.0 0.0
+    ambColor 0.2 0.2 0.2
+    specColor 0.0 0.0 0.0
+    emisColor 0.0 0.0 0.0
+    shininess 0.0
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_VERTEX_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 2
+  poly {
+    numVertices 3
+    pos -2.0 4.0 -2.0
+    norm 1.0 0.0 0.0
+    pos -2.0 4.0 2.0
+    norm 1.0 0.0 0.0
+    pos -2.0 0.0 2.0
+    norm 1.0 0.0 0.0
+  }
+  poly {
+    numVertices 3
+    pos -2.0 4.0 -2.0
+    norm 1.0 0.0 0.0
+    pos -2.0 0.0 2.0
+    norm 1.0 0.0 0.0
+    pos -2.0 0.0 -2.0
+    norm 1.0 0.0 0.0
+  }
+}
+poly_set {
+  name "green_wall_Cube.008"
+  numMaterials 1
+  material {
+    diffColor 0.0 1.0 0.0
+    ambColor 0.2 0.2 0.2
+    specColor 0.0 0.0 0.0
+    emisColor 0.0 0.0 0.0
+    shininess 3.00245096875
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_VERTEX_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 2
+  poly {
+    numVertices 3
+    pos 2.0 4.0 2.0
+    norm -1.0 0.0 0.0
+    pos 2.0 4.0 -2.0
+    norm -1.0 0.0 0.0
+    pos 2.0 0.0 -2.0
+    norm -1.0 0.0 0.0
+  }
+  poly {
+    numVertices 3
+    pos 2.0 4.0 2.0
+    norm -1.0 0.0 0.0
+    pos 2.0 0.0 -2.0
+    norm -1.0 0.0 0.0
+    pos 2.0 0.0 2.0
+    norm -1.0 0.0 0.0
+  }
+}

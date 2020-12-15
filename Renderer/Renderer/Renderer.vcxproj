@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F45E4A14-0EA6-492D-9813-220890CFD627}</ProjectGuid>
+    <RootNamespace>Renderer</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)deps\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)deps\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)deps\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)deps\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>FreeImage.lib;FreeImagePlus.lib;glew32.lib;OpenGL32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>FreeImage.lib;FreeImagePlus.lib;glew32.lib;OpenGL32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="aabb.cpp" />
+    <ClCompile Include="bary.cpp" />
+    <ClCompile Include="gl_program.cpp" />
+    <ClCompile Include="intersection_shader.cpp" />
+    <ClCompile Include="lens_ray_computer.cpp" />
+    <ClCompile Include="mat4.cpp" />
+    <ClCompile Include="material.cpp" />
+    <ClCompile Include="material_shader.cpp" />
+    <ClCompile Include="noise.cpp" />
+    <ClCompile Include="object.cpp" />
+    <ClCompile Include="object_tracer.cpp" />
+    <ClCompile Include="patch.cpp" />
+    <ClCompile Include="patch_state.cpp" />
+    <ClCompile Include="pinhole_ray_computer.cpp" />
+    <ClCompile Include="plane.cpp" />
+    <ClCompile Include="primitive.cpp" />
+    <ClCompile Include="primitive_tree.cpp" />
+    <ClCompile Include="prng.cpp" />
+    <ClCompile Include="quad_patch.cpp" />
+    <ClCompile Include="radiosity_scene.cpp" />
+    <ClCompile Include="ray.cpp" />
+    <ClCompile Include="scene.cpp" />
+    <ClCompile Include="renderer.cpp" />
+    <ClCompile Include="scene_io.cpp" />
+    <ClCompile Include="math.cpp" />
+    <ClCompile Include="shadow_tracer.cpp" />
+    <ClCompile Include="sphere.cpp" />
+    <ClCompile Include="sphere_patch.cpp" />
+    <ClCompile Include="vec2.cpp" />
+    <ClCompile Include="vec3.cpp" />
+    <ClCompile Include="vec4.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aabb.h" />
+    <ClInclude Include="bary.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="gl.h" />
+    <ClInclude Include="gl_program.h" />
+    <ClInclude Include="lens_ray_computer.h" />
+    <ClInclude Include="material_shader.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="intersect_info.h" />
+    <ClInclude Include="intersection_shader.h" />
+    <ClInclude Include="light.h" />
+    <ClInclude Include="mat4.h" />
+    <ClInclude Include="material.h" />
+    <ClInclude Include="noise.h" />
+    <ClInclude Include="object.h" />
+    <ClInclude Include="object_tracer.h" />
+    <ClInclude Include="patch.h" />
+    <ClInclude Include="patch_state.h" />
+    <ClInclude Include="patch_vertex.h" />
+    <ClInclude Include="pinhole_ray_computer.h" />
+    <ClInclude Include="primitive.h" />
+    <ClInclude Include="primitive_tree.h" />
+    <ClInclude Include="prng.h" />
+    <ClInclude Include="quad_patch.h" />
+    <ClInclude Include="radiosity_object_tracer.h" />
+    <ClInclude Include="radiosity_scene.h" />
+    <ClInclude Include="ray.h" />
+    <ClInclude Include="raytracer.h" />
+    <ClInclude Include="scene.h" />
+    <ClInclude Include="ray_computer.h" />
+    <ClInclude Include="scene_io.h" />
+    <ClInclude Include="shader_bindings.h" />
+    <ClInclude Include="shader_params.h" />
+    <ClInclude Include="shadow_tracer.h" />
+    <ClInclude Include="sphere.h" />
+    <ClInclude Include="sphere_patch.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="math.h" />
+    <ClInclude Include="triangle.h" />
+    <ClInclude Include="vec2.h" />
+    <ClInclude Include="vec3.h" />
+    <ClInclude Include="vec4.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="plane.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

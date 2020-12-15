@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{12c1ca38-9c3b-45af-8696-6adb2cfbdf19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{f04dc512-43b4-4bca-b072-54f24c307c6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene">
+      <UniqueIdentifier>{b95e467b-84ff-4780-b733-01ec84aa111d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scene">
+      <UniqueIdentifier>{cb0f0bcf-6724-4b1b-8c46-32f894f04b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shader">
+      <UniqueIdentifier>{2e76307e-680c-40d1-b13a-b7583cdf9408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shader">
+      <UniqueIdentifier>{3a416896-3af4-40e9-98db-721848f3f1a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\radiosity">
+      <UniqueIdentifier>{0a24526c-48ed-4b7c-8626-87312a243990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\radiosity">
+      <UniqueIdentifier>{d6ee10a7-2d57-41bd-9063-3223c70096cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\raytracing">
+      <UniqueIdentifier>{b547195b-679c-4efb-88ff-2ee4837bbaf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\raytracing">
+      <UniqueIdentifier>{8dc822dc-2217-4fe9-8b2c-7fa58255dcff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="scene_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bary.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="mat4.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="vec2.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="vec3.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="vec4.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="aabb.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="intersection_shader.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="material_shader.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="plane.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="prng.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="noise.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="primitive.cpp">
+      <Filter>Source Files\raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="primitive_tree.cpp">
+      <Filter>Source Files\raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="sphere.cpp">
+      <Filter>Source Files\raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="patch.cpp">
+      <Filter>Source Files\radiosity</Filter>
+    </ClCompile>
+    <ClCompile Include="patch_state.cpp">
+      <Filter>Source Files\radiosity</Filter>
+    </ClCompile>
+    <ClCompile Include="radiosity_scene.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="object_tracer.cpp">
+      <Filter>Source Files\raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow_tracer.cpp">
+      <Filter>Source Files\raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="quad_patch.cpp">
+      <Filter>Source Files\radiosity</Filter>
+    </ClCompile>
+    <ClCompile Include="lens_ray_computer.cpp">
+      <Filter>Source Files\raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="pinhole_ray_computer.cpp">
+      <Filter>Source Files\raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="ray.cpp">
+      <Filter>Source Files\raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sphere_patch.cpp">
+      <Filter>Source Files\radiosity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scene_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bary.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="mat4.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="vec4.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="aabb.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="material_shader.h">
+      <Filter>Header Files\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_bindings.h">
+      <Filter>Header Files\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="intersection_shader.h">
+      <Filter>Header Files\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_params.h">
+      <Filter>Header Files\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="prng.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="noise.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>Header Files\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.h">
+      <Filter>Header Files\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="primitive_tree.h">
+      <Filter>Header Files\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="primitive.h">
+      <Filter>Header Files\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="intersect_info.h">
+      <Filter>Header Files\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="patch_vertex.h">
+      <Filter>Header Files\radiosity</Filter>
+    </ClInclude>
+    <ClInclude Include="patch.h">
+      <Filter>Header Files\radiosity</Filter>
+    </ClInclude>
+    <ClInclude Include="patch_state.h">
+      <Filter>Header Files\radiosity</Filter>
+    </ClInclude>
+    <ClInclude Include="quad_patch.h">
+      <Filter>Header Files\radiosity</Filter>
+    </ClInclude>
+    <ClInclude Include="radiosity_scene.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="object_tracer.h">
+      <Filter>Header Files\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow_tracer.h">
+      <Filter>Header Files\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="lens_ray_computer.h">
+      <Filter>Header Files\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="pinhole_ray_computer.h">
+      <Filter>Header Files\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>Header Files\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="ray_computer.h">
+      <Filter>Header Files\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="gl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gl_program.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere_patch.h">
+      <Filter>Header Files\radiosity</Filter>
+    </ClInclude>
+    <ClInclude Include="radiosity_object_tracer.h">
+      <Filter>Header Files\radiosity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="plane.h">
+      <Filter>Header Files\math</Filter>
+    </None>
+  </ItemGroup>
+</Project>
